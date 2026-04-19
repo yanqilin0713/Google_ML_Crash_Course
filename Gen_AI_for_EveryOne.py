@@ -2,6 +2,7 @@
 from openai import OpenAI
 import os
 
+# Need API Details
 def llm_response(prompt):
     response = client.responses.create(
         model='gpt-4.1-mini',
