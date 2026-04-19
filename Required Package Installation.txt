@@ -1,0 +1,24 @@
+--Linear Regression Required Package Installation
+python3.11 -m venv ai_env
+source ai_env/bin/activate
+python -m pip install --upgrade pip setuptools wheel
+
+python3 -m pip install \
+  google-ml-edu==0.1.3 \
+  tensorflow==2.16.2 \
+  numpy==1.26.4 \
+  pandas==2.2.1 \
+  matplotlib==3.9.0
+
+--Classification Problem
+# @title Install required libraries
+
+python3 -m pip install \
+  google-ml-edu==0.1.2 \
+  keras~=3.8.0 \
+  matplotlib~=3.9.0 \
+  numpy~=1.26.4 \
+  pandas~=2.2.1 \
+  tensorflow==2.16.2
+
+print('\n\nAll requirements successfully installed.')
